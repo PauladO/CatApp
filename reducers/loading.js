@@ -4,7 +4,7 @@ import {
   API_ERROR,
 } from '../middleware/api'
 
-export default (state = false, { type, payload }) -> {
+export default (state = false, { type, payload }) => {
   switch (type) {
     case API_LOADING :
       return true

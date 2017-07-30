@@ -30,4 +30,18 @@ export default StyleSheet.create({
     alignSelf: 'stretch',
     justifyContent: 'center'
   },
+  buttonPrimary: {
+    backgroundColor: 'red',
+    padding: 3,
+    width: 100,
+    marginTop: 20,
+    borderRadius: 5,
+  },
+  buttonSecondary: {
+    backgroundColor: 'orange',
+    padding: 3,
+    width: 100,
+    marginTop: 20,
+    borderRadius: 5,
+  },
 })

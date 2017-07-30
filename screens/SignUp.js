@@ -67,6 +67,14 @@ class SignUp extends Component {
           >
             <Text style={styles.buttonText}>Sign up</Text>
           </TouchableHighlight>
+          <TouchableHighlight
+            disabled={loading}
+            style={styles.buttonSecondary}
+            onPress={Actions.signIn}
+            underlayColor='#99d9f4'
+          >
+            <Text style={styles.buttonText}>Sign in</Text>
+          </TouchableHighlight>
         </KeyboardAvoidingView>
       </View>
     )

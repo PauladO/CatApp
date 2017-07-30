@@ -7,8 +7,21 @@
 		"test": "jest"
 	},
 	"dependencies": {
+		"babel-polyfill": "^6.23.0",
+		"feathers": "^2.1.7",
+		"feathers-authentication": "0.7.11",
+		"feathers-hooks": "^2.0.2",
+		"feathers-localstorage": "^1.0.0",
+		"feathers-socketio": "^2.0.0",
 		"react": "16.0.0-alpha.12",
-		"react-native": "0.46.4"
+		"react-native": "0.46.4",
+		"react-native-router-flux": "^4.0.0-beta.14",
+		"react-redux": "^5.0.5",
+		"redux": "^3.7.2",
+		"redux-thunk": "^2.2.0",
+		"remote-redux-devtools": "^0.5.12",
+		"socket.io-client": "^2.0.3",
+		"tcomb-form-native": "^0.6.9"
 	},
 	"devDependencies": {
 		"babel-jest": "20.0.3",

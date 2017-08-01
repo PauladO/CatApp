@@ -1,5 +1,6 @@
 import API from '../../lib/api'
 import signIn from './sign-in'
+import { Actions } from 'react-native-router-flux'
 import {
   API_LOADING,
   API_READY,
@@ -17,6 +18,7 @@ export default (user) => {
     users.create(user)
       .then((result) => {
         dispatch(signIn(user))
+        Actions.chatRoom()
       })
       .catch((error) => {
         dispatch({ type: API_ERROR, payload: error})

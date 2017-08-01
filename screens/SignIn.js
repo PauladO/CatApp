@@ -54,7 +54,7 @@ class SignIn extends Component {
         <KeyboardAvoidingView
           behavior="padding"
           style={styles.container}>
-          <Text style={styles.title}>Sign into ShatApp</Text>
+          <Text style={styles.title}>Sign into CatApp</Text>
           { user && user.error ? <Text style={styles.error}>{user.error.name} { user.error.message }</Text> : null }
 
           <Form

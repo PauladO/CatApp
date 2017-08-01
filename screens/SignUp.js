@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { Actions } from 'react-native-router-flux'
 import ReactNative, {
   View,
   KeyboardAvoidingView,
@@ -46,13 +47,14 @@ class SignUp extends Component {
 
   render() {
     const Form = t.form.Form
+    const { loading } = this.props
 
     return (
       <View style={styles.outerContainer}>
         <KeyboardAvoidingView
           behavior="padding"
           style={styles.container}>
-          <Text style={styles.title}>Sign up for chat</Text>
+          <Text style={styles.title}>Sign up for CatApp</Text>
 
           <Form
             ref="form"
